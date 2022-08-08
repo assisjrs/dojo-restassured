@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Cliente Schema",
+  "type": "object",
+  "items": {
+    "title": "Product",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "Id do cliente",
+        "type": "number",
+        "minimum": 1
+      },
+      "nome": {
+        "description": "Nome do cliente",
+        "type": "string"
+      }
+    },
+    "required": ["id", "nome"]
+  }
+}
